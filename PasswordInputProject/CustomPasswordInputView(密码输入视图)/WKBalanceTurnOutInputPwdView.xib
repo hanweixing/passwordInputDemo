@@ -170,7 +170,7 @@
                     </connections>
                 </button>
             </subviews>
-            <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+            <color key="backgroundColor" red="0.93725490199999995" green="0.93725490199999995" blue="0.95686274510000002" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
                 <constraint firstItem="m2G-4V-AfX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="2tq-89-9P8"/>
                 <constraint firstItem="TN2-Jr-DYC" firstAttribute="top" secondItem="m2G-4V-AfX" secondAttribute="bottom" id="7UK-xl-I9V"/>
