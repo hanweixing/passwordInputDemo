@@ -12,6 +12,8 @@
 #import "WKBalanceTurnOutInputPwdView.h"
 #import "MBProgressHUD+H.h"
 
+#define UIColorFromRGBA(rgbValue, alphaValue) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0x00FF00) >> 8))/255.0 blue:((float)(rgbValue & 0x0000FF))/255.0 alpha:alphaValue]//颜色转换（从16位转化为rgb）
+
 @interface ViewController ()
 
 // 提现输入框
@@ -29,6 +31,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.view.backgroundColor = UIColorFromRGBA(0xf8f8f8, 1);
     
     /**
      *  使用IQKeyboard管理键盘
