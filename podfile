@@ -1,0 +1,6 @@
+platform:ios, '7.0'
+
+target:PasswordInputProject
+
+pod 'IQKeyboardManager', '~> 3.3.7'
+pod 'MBProgressHUD', '~> 1.0.0'

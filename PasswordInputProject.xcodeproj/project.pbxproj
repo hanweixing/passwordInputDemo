@@ -15,6 +15,11 @@
 		20D962231D70075F003A79BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20D962211D70075F003A79BC /* LaunchScreen.storyboard */; };
 		20D9622E1D70075F003A79BC /* PasswordInputProjectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D9622D1D70075F003A79BC /* PasswordInputProjectTests.m */; };
 		20D962391D70075F003A79BC /* PasswordInputProjectUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D962381D70075F003A79BC /* PasswordInputProjectUITests.m */; };
+		20D962501D701B52003A79BC /* MBProgressHUD+H.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D9624E1D701B52003A79BC /* MBProgressHUD+H.m */; };
+		20D962511D701B52003A79BC /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 20D9624F1D701B52003A79BC /* MBProgressHUD.bundle */; };
+		20D962561D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.m in Sources */ = {isa = PBXBuildFile; fileRef = 20D962541D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.m */; };
+		20D962571D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 20D962551D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.xib */; };
+		6BE850014117050F8C7D78B4 /* libPods-PasswordInputProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1259A06DF3A1226877B4EC0C /* libPods-PasswordInputProject.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1259A06DF3A1226877B4EC0C /* libPods-PasswordInputProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PasswordInputProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D962101D70075F003A79BC /* PasswordInputProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordInputProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D962141D70075F003A79BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		20D962161D70075F003A79BC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +57,14 @@
 		20D962341D70075F003A79BC /* PasswordInputProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordInputProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		20D962381D70075F003A79BC /* PasswordInputProjectUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordInputProjectUITests.m; sourceTree = "<group>"; };
 		20D9623A1D70075F003A79BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		20D9624D1D701B52003A79BC /* MBProgressHUD+H.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+H.h"; sourceTree = "<group>"; };
+		20D9624E1D701B52003A79BC /* MBProgressHUD+H.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+H.m"; sourceTree = "<group>"; };
+		20D9624F1D701B52003A79BC /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		20D962531D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WKBalanceTurnOutInputPwdView.h; sourceTree = "<group>"; };
+		20D962541D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WKBalanceTurnOutInputPwdView.m; sourceTree = "<group>"; };
+		20D962551D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WKBalanceTurnOutInputPwdView.xib; sourceTree = "<group>"; };
+		94C2249380FAC60B21372424 /* Pods-PasswordInputProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordInputProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordInputProject/Pods-PasswordInputProject.debug.xcconfig"; sourceTree = "<group>"; };
+		C6098B9F19B022942A963B2B /* Pods-PasswordInputProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PasswordInputProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-PasswordInputProject/Pods-PasswordInputProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6BE850014117050F8C7D78B4 /* libPods-PasswordInputProject.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				20D9622C1D70075F003A79BC /* PasswordInputProjectTests */,
 				20D962371D70075F003A79BC /* PasswordInputProjectUITests */,
 				20D962111D70075F003A79BC /* Products */,
+				5D10F86673F4EC81D053871A /* Pods */,
+				2C9102DB0B9C05901FCC814C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +118,8 @@
 		20D962121D70075F003A79BC /* PasswordInputProject */ = {
 			isa = PBXGroup;
 			children = (
+				20D962521D701DB2003A79BC /* CustomPasswordInputView(密码输入视图) */,
+				20D9624C1D701B52003A79BC /* ActivityIndicator(指示器) */,
 				20D962161D70075F003A79BC /* AppDelegate.h */,
 				20D962171D70075F003A79BC /* AppDelegate.m */,
 				20D962191D70075F003A79BC /* ViewController.h */,
@@ -140,6 +159,43 @@
 			path = PasswordInputProjectUITests;
 			sourceTree = "<group>";
 		};
+		20D9624C1D701B52003A79BC /* ActivityIndicator(指示器) */ = {
+			isa = PBXGroup;
+			children = (
+				20D9624D1D701B52003A79BC /* MBProgressHUD+H.h */,
+				20D9624E1D701B52003A79BC /* MBProgressHUD+H.m */,
+				20D9624F1D701B52003A79BC /* MBProgressHUD.bundle */,
+			);
+			path = "ActivityIndicator(指示器)";
+			sourceTree = "<group>";
+		};
+		20D962521D701DB2003A79BC /* CustomPasswordInputView(密码输入视图) */ = {
+			isa = PBXGroup;
+			children = (
+				20D962531D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.h */,
+				20D962541D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.m */,
+				20D962551D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.xib */,
+			);
+			path = "CustomPasswordInputView(密码输入视图)";
+			sourceTree = "<group>";
+		};
+		2C9102DB0B9C05901FCC814C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1259A06DF3A1226877B4EC0C /* libPods-PasswordInputProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D10F86673F4EC81D053871A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				94C2249380FAC60B21372424 /* Pods-PasswordInputProject.debug.xcconfig */,
+				C6098B9F19B022942A963B2B /* Pods-PasswordInputProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +203,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 20D9623D1D70075F003A79BC /* Build configuration list for PBXNativeTarget "PasswordInputProject" */;
 			buildPhases = (
+				B6CA6DA7673ED3E804A60796 /* [CP] Check Pods Manifest.lock */,
 				20D9620C1D70075F003A79BC /* Sources */,
 				20D9620D1D70075F003A79BC /* Frameworks */,
 				20D9620E1D70075F003A79BC /* Resources */,
+				076A1949643CB6840F5C8936 /* [CP] Embed Pods Frameworks */,
+				DD4C4E6CD973D80B5B942673 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -244,7 +303,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				20D962231D70075F003A79BC /* LaunchScreen.storyboard in Resources */,
+				20D962511D701B52003A79BC /* MBProgressHUD.bundle in Resources */,
 				20D962201D70075F003A79BC /* Assets.xcassets in Resources */,
+				20D962571D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.xib in Resources */,
 				20D9621E1D70075F003A79BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,13 +326,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		076A1949643CB6840F5C8936 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordInputProject/Pods-PasswordInputProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B6CA6DA7673ED3E804A60796 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DD4C4E6CD973D80B5B942673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PasswordInputProject/Pods-PasswordInputProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		20D9620C1D70075F003A79BC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				20D9621B1D70075F003A79BC /* ViewController.m in Sources */,
+				20D962501D701B52003A79BC /* MBProgressHUD+H.m in Sources */,
 				20D962181D70075F003A79BC /* AppDelegate.m in Sources */,
+				20D962561D701DB2003A79BC /* WKBalanceTurnOutInputPwdView.m in Sources */,
 				20D962151D70075F003A79BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +522,7 @@
 		};
 		20D9623E1D70075F003A79BC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C2249380FAC60B21372424 /* Pods-PasswordInputProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PasswordInputProject/Info.plist;
@@ -422,6 +534,7 @@
 		};
 		20D9623F1D70075F003A79BC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6098B9F19B022942A963B2B /* Pods-PasswordInputProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = PasswordInputProject/Info.plist;
@@ -496,6 +609,7 @@
 				20D9623F1D70075F003A79BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20D962401D70075F003A79BC /* Build configuration list for PBXNativeTarget "PasswordInputProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +618,7 @@
 				20D962421D70075F003A79BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		20D962431D70075F003A79BC /* Build configuration list for PBXNativeTarget "PasswordInputProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +627,7 @@
 				20D962451D70075F003A79BC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
