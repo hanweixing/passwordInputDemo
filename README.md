@@ -1,2 +1,3 @@
 # passwordInputDemo
-This is a demo that provides an example about how to move first responder to next input TextField
+This is a demo that provides an example about how to implement withDraw feature.
+The function is like Alipay cash withDraw known to everyone.
